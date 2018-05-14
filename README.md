@@ -1,90 +1,126 @@
-<p align="center">
-  <a href="http://materializecss.com/">
-    <img src="http://materializecss.com/res/materialize.svg" width="150">
-  </a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nacho Reyna</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="iner blue lighten-1" align="center" >
+        <img src="img/hacker.jpg" alt="" class="principal" width="10%">
+        <span class="nombre">Ignacio Reyna</span>
+        <span class="des" for=""><i>Senior Web Developer</i></span >
+    </div>
+        <nav>
+            <a href="#informacion" class=""> Informacion</a>
+            <a href="#sobremi"> Más sobre mi</a>
+            <a href="#proyectos"> Proyectos</a>
+            <a href="#contacto"> Contacto</a>
+        </nav>
 
-  <h3 align="center">MaterializeCSS</h3>
+  </head>
+  <body>
 
-  <p align="center">
-    Materialize, a CSS Framework based on material design.
-    <br>
-    <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
-    <br>
-    <br>
-    <a href="https://travis-ci.org/Dogfalo/materialize">
-      <img src="https://travis-ci.org/Dogfalo/materialize.svg?branch=master" alt="Travis CI badge">
-    </a>
-    <a href="https://badge.fury.io/js/materialize-css">
-      <img src="https://badge.fury.io/js/materialize-css.svg" alt="npm version badge">
-    </a>
-    <a href="https://cdnjs.com/libraries/materialize">
-      <img src="https://img.shields.io/cdnjs/v/materialize.svg" alt="CDNJS version badge">
-    </a>
-    <a href="https://david-dm.org/Dogfalo/materialize">
-      <img src="https://david-dm.org/Dogfalo/materialize/status.svg" alt="dependencies Status badge">
-      </a>
-    <a href="https://david-dm.org/Dogfalo/materialize#info=devDependencies">
-      <img src="https://david-dm.org/Dogfalo/materialize/dev-status.svg" alt="devDependency Status badge">
-    </a>
-    <a href="https://gitter.im/Dogfalo/materialize">
-      <img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter badge">
-    </a>
-</p>
+<div class="divider"></div>
+<div class="section" id="informacion">
+  <h2>Informacion</h2>
 
-## Table of Contents
-- [Quickstart](#quickstart)
-- [Documentation](#documentation)
-- [Supported Browsers](#supported-browsers)
-- [Changelog](#changelog)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Copyright and license](#copyright-and-license)
+  <div class="row">
+     <div class="col s6"><i class="smart material-icons">insert_chart</i>Más sobre mi </div>
+     <div class="col s6"> <hr> </div>
+   </div>
 
-## Quickstart:
-Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
 
-- [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub.
-- Clone the repo: `git clone https://github.com/Dogfalo/materialize.git`
-- Include the files via [cdnjs](https://cdnjs.com/libraries/materialize). More [here](http://materializecss.com/getting-started.html).
-- Install with [npm](https://www.npmjs.com): `npm install materialize-css`
-- Install with [Bower](https://bower.io): `bower install materialize` ([DEPRECATED](https://bower.io/blog/2017/how-to-migrate-away-from-bower/))
-- Install with [Atmosphere](https://atmospherejs.com): `meteor add materialize:materialize`
+</div>
+<div class="divider"></div>
+<div class="section" id="sobremi">
+  <h2>Más sobre mi</h2>
 
-## Documentation
-The documentation can be found at <http://materializecss.com>. To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer.
+</div>
+<div class="divider"></div>
+<div class="section" id="proyectos">
+  <h2>Mis proyectos</h2>
 
-### Running documentation locally
-Run these commands to set up the documentation:
+  <div class="divider"></div>
+  <div class="section" id="contacto">
+    <h2>Contacto</h2>
 
-```bash
-git clone https://github.com/Dogfalo/materialize
-cd materialize
-npm install
-```
 
-Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.
+</div>
 
-### Documentation for previous releases
-Previous releases and their documentation are available for [download](https://github.com/Dogfalo/materialize/releases).
 
-## Supported Browsers:
-Materialize is compatible with:
 
-- Chrome 35+
-- Firefox 31+
-- Safari 9+
-- Opera
-- Edge
-- IE 11+
+  </body>
+  <script src="js/materialize.js" ></script>
+</html>
+<style media="screen">
+html{
+  font-family: 'Roboto', sans-serif;
 
-## Changelog
-For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
+}
+  .sin-bordes{
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .alinear{
+    display: flex;
 
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](CONTRIBUTING.md#jasmine-testing-guide).
+  }
 
-## Contributing
-Check out the [CONTRIBUTING document](CONTRIBUTING.md) in the root of the repository to learn how you can contribute. You can also browse the [help-wanted](https://github.com/Dogfalo/materialize/labels/help-wanted) tag in our issue tracker to find things to do.
+  body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    border: 0px solid #948e8e5e;
 
-## Copyright and license
-Code copyright 2017 Materialize. Code released under the MIT license.
+    font-family: 'Roboto', sans-serif;
+    background: #42a5f5;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    font-size: 31px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.19), 0 2px 2px rgba(0, 0, 0, 0.23); }
+    nav a {
+      padding: 9px 26px;
+      text-decoration: none;
+      color: #fff;
+      margin: 11px 5px; }
+
+
+  nav a:hover{
+    font-size: 31px;
+    padding: 9px 26px;
+    background: #42a3f1;
+    height: 35px;
+
+  }
+
+  .iner{
+    background-color: #42a5f5;
+    padding: 9px 26px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;}
+
+  .principal{
+    border-radius: 174px;
+    margin-top: 25px;}
+
+  .des{
+    border-radius: 7px;
+    background-color: #ec407a;
+    padding: 10px 10px;
+    max-width: 180px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+    font-size: 16px;}
+
+  .nombre{
+    font-size: 30px;
+    color: #fff;  }
+</style>
